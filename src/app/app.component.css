@@ -1,0 +1,26 @@
+.color{
+    background-color: #4c8cf4;
+}
+.container a{
+    margin-left: 15px;
+}
+.text-home{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-center{
+    /* position: absolute;
+    left: 50%;
+    transform: translatex(-50%); */
+}
+.link:hover{
+    cursor: pointer;
+}
+@media (min-width: 992px) {
+    .navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+}
