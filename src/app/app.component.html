@@ -1,23 +1,26 @@
-<nav class="navbar navbar-expand-lg navbar-dark color">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
-    <a class="navbar-brand text-home">Richardev</a>
+    <a class="navbar-brand text-home">
+      <img src="https://image.flaticon.com/icons/png/512/1005/1005141.png" alt="" width="34" height="30"
+        class="d-inline-block align-text-top">
+      Richardeveloper</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav navbar-center">
+      <ul class="navbar-nav navbar-end">
         <li class="nav-item">
-          <a class="nav-link active link" aria-current="page" (click) = "home()"><i class="fas fa-user fa-1x"></i> Home</a>
+          <a class="nav-link link" aria-current="page" routerLink="/home" routerLinkActive="active"><i class="fas fa-user fa-1x"></i> Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active link" (click) = "projectsAll()"><i class="fas fa-briefcase fa-1x"></i> Projects</a>
+          <a class="nav-link link" routerLink="/projects" routerLinkActive="active"><i class="fas fa-briefcase fa-1x"></i> Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active link" (click) = "contact()"><i class="fas fa-envelope fa-1x"></i> Contact</a>
+          <a class="nav-link link" routerLink="/contact" routerLinkActive="active"><i class="fas fa-envelope fa-1x"></i> Contacto/Sugerencias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="https://blogrichardfernando.blogspot.com/" target="_blank"><i class="fab fa-blogger-b fa-1x"></i> Blog</a>
+          <a class="nav-link link" href="https://blogrichardfernando.blogspot.com/" target="_blank"><i class="fab fa-blogger-b fa-1x"></i> Blog</a>
         </li>
       </ul>
     </div>

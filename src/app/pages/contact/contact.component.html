@@ -2,20 +2,20 @@
     <div class="row">
         <div class="col-12">
             <form class="animate__animated animate__backInUp">
-                <h2 class="text-center mt-5 text">I WILL ANSWER AS SOON AS POSSIBLE</h2>
+                <h2 class="text-center mt-5 text">RESPONDERÉ LO ANTES POSIBLE</h2>
                 <div class="mt-5">
-                    <label for="exampleFormControlInput1" class="form-label text">Name</label>
+                    <label for="exampleFormControlInput1" class="form-label text">Nombre</label>
                     <input [(ngModel)]="data.name" [ngModelOptions]="{standalone: true}" type="text" class="form-control color-input" id="exampleFormControlInput1" placeholder="Richard Example" required>
                 </div>
                 <div class="mt-3">
-                    <label for="exampleFormControlInput1" class="form-label text">Email address</label>
+                    <label for="exampleFormControlInput1" class="form-label text">Correo Electronico</label>
                     <input type="email" [(ngModel)]="data.subject" [ngModelOptions]="{standalone: true}" class="form-control color-input" id="exampleFormControlInput1" placeholder="name@example.com" required>
                 </div>
                 <div class="mt-3 mb-5">
-                    <label for="exampleFormControlTextarea1" class="form-label text">Message</label>
+                    <label for="exampleFormControlTextarea1" class="form-label text">Mensaje o Sugerencia</label>
                     <textarea  [(ngModel)]="data.text" [ngModelOptions]="{standalone: true}" class="form-control color-input" placeholder="Message" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
-                <a class="btn color" style="width: 100%;" (click)="sendMessage()">Send</a>
+                <a class="btn color" style="width: 100%;" (click)="sendMessage()">Enviar Mensaje</a>
             </form>
         </div>
     </div>
