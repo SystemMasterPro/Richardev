@@ -6,13 +6,18 @@
 .container{
     height: 100vh;
 }
+.button{
+    display: grid;
+    justify-items: center;
+}
 .color{
     background-color: #42a8df;
     color: white;
     font-weight: bolder;
+    width: 300px;
 }
 .color:hover{
-    box-shadow: 0px 2px 7px 5px rgba(0,0,0,0.79);
+    background-color: rgb(5, 113, 146);
 }
 .color-input{
     color: rgb(57, 165, 204);

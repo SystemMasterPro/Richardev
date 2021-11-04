@@ -5,17 +5,19 @@
                 <h2 class="text-center mt-5 text">RESPONDERÉ LO ANTES POSIBLE</h2>
                 <div class="mt-5">
                     <label for="exampleFormControlInput1" class="form-label text">Nombre</label>
-                    <input [(ngModel)]="data.name" [ngModelOptions]="{standalone: true}" type="text" class="form-control color-input" id="exampleFormControlInput1" placeholder="Richard Example" required>
+                    <input [(ngModel)]="data.name" [ngModelOptions]="{standalone: true}" type="text" class="form-control color-input" id="exampleFormControlInput1" placeholder="Ejemplo: Richard Jimenez" required>
                 </div>
                 <div class="mt-3">
                     <label for="exampleFormControlInput1" class="form-label text">Correo Electronico</label>
-                    <input type="email" [(ngModel)]="data.subject" [ngModelOptions]="{standalone: true}" class="form-control color-input" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                    <input type="email" [(ngModel)]="data.subject" [ngModelOptions]="{standalone: true}" class="form-control color-input" id="exampleFormControlInput1" placeholder="ejemplo@ejemplo.com" required>
                 </div>
                 <div class="mt-3 mb-5">
                     <label for="exampleFormControlTextarea1" class="form-label text">Mensaje o Sugerencia</label>
-                    <textarea  [(ngModel)]="data.text" [ngModelOptions]="{standalone: true}" class="form-control color-input" placeholder="Message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    <textarea  [(ngModel)]="data.text" [ngModelOptions]="{standalone: true}" class="form-control color-input" placeholder="Escriba su mensaje" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
-                <a class="btn color" style="width: 100%;" (click)="sendMessage()">Enviar Mensaje</a>
+                <div class="button">
+                    <a class="btn color" (click)="sendMessage()">Enviar Mensaje</a>
+                </div>
             </form>
         </div>
     </div>
